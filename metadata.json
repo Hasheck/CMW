@@ -2,10 +2,10 @@
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
   "Name": "ИТЦ. Управление проектами автодора",
   "Alias": "ITTsUpravlenieproektamiavtodora",
-  "ExportDate": "2022-08-23T07:21:50.3362493+03:00",
+  "ExportDate": "2022-08-25T06:36:30.2359748+03:00",
   "Database": "b2accd20-a7be-4129-a35b-99a39685cabc",
   "Server": "https://sandbox.35.comindware.net/",
-  "Version": "4.2.203.0",
+  "Version": "4.2.216.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
