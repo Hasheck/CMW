@@ -1,0 +1,10 @@
+{
+  "$type": "Comindware.Platform.Contracts.MessageTypeConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "Avansovyyotchet0c12",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "Avansovyyotchet0c12"
+  },
+  "Kind": "InternalKind"
+}

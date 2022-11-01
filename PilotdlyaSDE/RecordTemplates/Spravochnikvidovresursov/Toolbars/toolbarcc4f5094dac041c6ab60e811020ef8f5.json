@@ -1,0 +1,15 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "Spravochnikvidovresursov",
+    "Alias": "toolbarcc4f5094dac041c6ab60e811020ef8f5"
+  },
+  "Name": "Область кнопок",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForTaskLists": false
+}

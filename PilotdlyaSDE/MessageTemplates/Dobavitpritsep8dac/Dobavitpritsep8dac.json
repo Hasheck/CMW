@@ -1,0 +1,10 @@
+{
+  "$type": "Comindware.Platform.Contracts.MessageTypeConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "Dobavitpritsep8dac",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "Dobavitpritsep8dac"
+  },
+  "Kind": "InternalKind"
+}

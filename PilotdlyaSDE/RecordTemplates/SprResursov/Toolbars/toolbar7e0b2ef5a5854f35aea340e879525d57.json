@@ -1,0 +1,62 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "SprResursov",
+    "Alias": "toolbar7e0b2ef5a5854f35aea340e879525d57"
+  },
+  "Name": "Область кнопок для «Справочник материалов - Основная форма»",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "SprResursov",
+          "Alias": "edit"
+        },
+        "Name": "ОК+Выйти",
+        "Order": 0,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "SprResursov",
+          "Alias": "archive"
+        },
+        "Name": "Архивировать",
+        "Order": 1,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "UserCommand",
+          "Owner": "SprResursov",
+          "Alias": "Izarkhiva"
+        },
+        "Name": "Из архива",
+        "Order": 2,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "Severity": "None"
+      }
+    ]
+  }
+}

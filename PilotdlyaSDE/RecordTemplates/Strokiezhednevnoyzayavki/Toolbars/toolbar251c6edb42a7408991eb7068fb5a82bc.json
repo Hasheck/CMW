@@ -1,0 +1,62 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "Strokiezhednevnoyzayavki",
+    "Alias": "toolbar251c6edb42a7408991eb7068fb5a82bc"
+  },
+  "Name": "Область кнопок",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "CollectionAction": {
+          "$type": "Comindware.Platform.Contracts.CollectionActionModel, Comindware.Platform.Contracts",
+          "Type": "Create",
+          "ExecutionFormat": "Undefined"
+        },
+        "Name": "Создать",
+        "Order": 0,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "IconClass": "plus",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "CollectionAction": {
+          "$type": "Comindware.Platform.Contracts.CollectionActionModel, Comindware.Platform.Contracts",
+          "Type": "FormEdit",
+          "ExecutionFormat": "Undefined"
+        },
+        "Name": "Редактировать",
+        "Order": 1,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "IconClass": "pen",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "CollectionAction": {
+          "$type": "Comindware.Platform.Contracts.CollectionActionModel, Comindware.Platform.Contracts",
+          "Type": "Navigate",
+          "ExecutionFormat": "Undefined"
+        },
+        "Name": "Перейти",
+        "Order": 2,
+        "Type": "Action",
+        "IconType": "Undefined",
+        "IconClass": "external-link",
+        "Severity": "None"
+      }
+    ]
+  }
+}

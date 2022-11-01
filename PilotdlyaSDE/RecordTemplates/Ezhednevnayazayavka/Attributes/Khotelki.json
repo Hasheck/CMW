@@ -1,0 +1,30 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Attribute",
+    "Owner": "Ezhednevnayazayavka",
+    "Alias": "Khotelki"
+  },
+  "Type": "Instance",
+  "Format": "Link",
+  "Name": "Строки заявки",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsUnique": false,
+  "IsIndexed": false,
+  "IsTracked": false,
+  "IsMultiValue": true,
+  "IsTitle": false,
+  "IsMandatory": false,
+  "IsOwnership": false,
+  "IsCalculated": false,
+  "InstanceGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Attribute",
+    "Owner": "Strokiezhednevnoyzayavki",
+    "Alias": "Ezhednevnayazayavka"
+  },
+  "ImageColorType": "Original",
+  "ImagePreserveAspectRatio": false
+}

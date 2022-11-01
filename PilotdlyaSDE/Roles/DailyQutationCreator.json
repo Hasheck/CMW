@@ -1,0 +1,15 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleConfiguration",
+    "Alias": "DailyQutationCreator"
+  },
+  "Name": "Создатель ежедневной заявки",
+  "Description": "Тот кто создает ежедневные заявки на ресурсы/материалы для исполнения работ по проекту",
+  "IsActive": true,
+  "Members": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$values": []
+  }
+}

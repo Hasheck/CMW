@@ -1,17 +1,18 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "ИТЦ. Управление проектами автодора",
-  "Alias": "ITTsUpravlenieproektamiavtodora",
-  "ExportDate": "2022-08-25T06:36:30.2359748+03:00",
+  "Name": "Пилот для СДЭ",
+  "Alias": "PilotdlyaSDE",
+  "Description": "Пробная версия ведения проектов для СДЭ",
+  "ExportDate": "2022-11-01T05:41:38.376934-07:00",
   "Database": "b2accd20-a7be-4129-a35b-99a39685cabc",
   "Server": "https://sandbox.35.comindware.net/",
-  "Version": "4.2.216.0",
+  "Version": "4.2.67.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 21,
-      "Exported": 21
+      "Found": 7,
+      "Exported": 7
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",

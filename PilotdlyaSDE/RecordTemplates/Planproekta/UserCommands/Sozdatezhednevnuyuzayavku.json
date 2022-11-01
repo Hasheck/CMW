@@ -1,0 +1,40 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "Planproekta",
+    "Alias": "Sozdatezhednevnuyuzayavku"
+  },
+  "Name": "Создать ежедневную заявку",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Record",
+  "Multiplicity": "OneByOne",
+  "Kind": "Edit",
+  "ResultType": "DataChange",
+  "ConfirmationModelConfiguration": {
+    "$type": "Comindware.Platform.Contracts.UserCommandConfirmationModel, Comindware.Platform.Contracts",
+    "Form": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Form",
+      "Owner": "Planproekta",
+      "Alias": "Sozdatezhednevnuyuzayavku032410829c854978b94ad975cbb33285"
+    },
+    "Template": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "MessageTemplate",
+      "Alias": "Sozdatezhednevnuyuzayavku36ed"
+    }
+  },
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "NotChange",
+  "LockStateVisibilityType": "AlwaysVisible",
+  "IsConfirmationActive": true,
+  "NavigationTarget": "BusinessRecord"
+}

@@ -1,0 +1,30 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Attribute",
+    "Owner": "Strokiezhednevnoyzayavki",
+    "Alias": "EI"
+  },
+  "Type": "Instance",
+  "Format": "Link",
+  "Name": "ЕИ",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsUnique": false,
+  "IsIndexed": false,
+  "IsTracked": false,
+  "IsMultiValue": false,
+  "IsTitle": false,
+  "IsMandatory": false,
+  "IsOwnership": false,
+  "IsCalculated": true,
+  "Expression": "$Khotelka->EI",
+  "InstanceGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "SpravochnikEI"
+  },
+  "ImageColorType": "Original",
+  "ImagePreserveAspectRatio": false
+}

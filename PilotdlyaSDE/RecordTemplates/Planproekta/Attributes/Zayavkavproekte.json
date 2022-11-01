@@ -1,0 +1,29 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Attribute",
+    "Owner": "Planproekta",
+    "Alias": "Zayavkavproekte"
+  },
+  "Type": "Instance",
+  "Format": "Link",
+  "Name": "Заявка в проекте",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsUnique": false,
+  "IsIndexed": false,
+  "IsTracked": false,
+  "IsMultiValue": true,
+  "IsTitle": false,
+  "IsMandatory": false,
+  "IsOwnership": false,
+  "IsCalculated": false,
+  "InstanceGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "Ezhednevnayazayavka"
+  },
+  "ImageColorType": "Original",
+  "ImagePreserveAspectRatio": false
+}

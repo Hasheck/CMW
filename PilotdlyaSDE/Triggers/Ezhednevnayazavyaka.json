@@ -1,0 +1,98 @@
+{
+  "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.TriggerModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Trigger",
+    "Alias": "Ezhednevnayazavyaka"
+  },
+  "Name": "Ежедневная завяка",
+  "ExecutionContext": "ByInitiator",
+  "BehaviourState": "Active",
+  "ActionsHead": {
+    "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.OnUserCommand, Comindware.Platform.Contracts",
+    "UserCommand": {
+      "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+      "Type": "UserCommand",
+      "Owner": "Planproekta",
+      "Alias": "Sozdatezhednevnuyuzayavku"
+    },
+    "Kind": "OnUserCommand",
+    "Uid": "ec0d8680-8a26-4231-bc6e-11a8f3160f07",
+    "Name": "Нажата кнопка «Создать ежедневную заявку» для записей «План проекта»",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "TriggerEvent",
+      "Alias": "ec0d8680-8a26-4231-bc6e-11a8f3160f07"
+    },
+    "Scope": {
+      "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+      "Type": "RecordTemplate",
+      "Alias": "Planproekta"
+    },
+    "NextAction": {
+      "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.ReferenceObjectCreate, Comindware.Platform.Contracts",
+      "Property": {
+        "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+        "Type": "Attribute",
+        "Owner": "Planproekta",
+        "Alias": "Zayavkavproekte"
+      },
+      "TargetContainer": {
+        "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+        "Type": "RecordTemplate",
+        "Alias": "Ezhednevnayazayavka"
+      },
+      "SetValueKind": "Add",
+      "Kind": "ReferenceObjectCreate",
+      "Uid": "920539a6-7eff-4312-93d3-933dfd86453d",
+      "Name": "В шаблоне «Ежедневная заявка» и добавить ссылку на новую запись в атрибут «Заявка в проекте»",
+      "GlobalAlias": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Type": "TriggerAction",
+        "Alias": "920539a6-7eff-4312-93d3-933dfd86453d"
+      },
+      "Scope": {
+        "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+        "Type": "RecordTemplate",
+        "Alias": "Planproekta"
+      },
+      "SubAction": {
+        "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.PropertySetValueAction, Comindware.Platform.Contracts",
+        "Kind": "PropertySetValue",
+        "SetValueProperties": {
+          "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.PropertySetValue[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.PropertySetValue, Comindware.Platform.Contracts",
+              "SetValueKind": "Replace",
+              "PropertyPath": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                "$values": [
+                  {
+                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                    "Type": "Attribute",
+                    "Owner": "Ezhednevnayazayavka",
+                    "Alias": "Khotelki"
+                  }
+                ]
+              },
+              "ValueExpression": "@prefix cmwsession: <http://comindware.com/ontology/session#>.\n@prefix variable: <http://comindware.com/ontology/session/variable#>.\n@prefix object: <http://comindware.com/ontology/object#>.\n{\n    (\"Strokiezhednevnoyzayavki\" \"Khotelka\") object:findProperty ?resursprop. #Заменить Rabotypoproektu на системное имя шаблона работы, Resurs - системное имя атрибута ссылки на ресурсы\n    cmwsession:context variable:dialogVariables ?v1. #данную строчку не менять\n    ?v1 variable:res ?coll.   #test - заменить на системное имя переменной из п. 3\n    ?coll ?resursprop ?value. # данную строчку не менять\n}"
+            }
+          ]
+        },
+        "Uid": "d15d53da-3769-4196-a94f-00d1872caafe",
+        "Name": "В записи «Ежедневная заявка»",
+        "GlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "TriggerAction",
+          "Alias": "d15d53da-3769-4196-a94f-00d1872caafe"
+        },
+        "Scope": {
+          "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+          "Type": "RecordTemplate",
+          "Alias": "Ezhednevnayazayavka"
+        }
+      }
+    }
+  }
+}
